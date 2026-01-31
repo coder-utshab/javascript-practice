@@ -18,7 +18,10 @@
 // const sum = add(5, 90);
 // console.log(sum);
 
+
+
 //arrow function
-const add3 = (a, b) => a + b
+const add3 = (a, b) => a + b;
+
 const sum = add3(5, 94);
 console.log(sum);
