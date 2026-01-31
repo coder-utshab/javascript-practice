@@ -15,3 +15,11 @@ console.log(phone)
 console.log(age)
 console.log(age)
 console.log(age)
+
+
+//array distributing
+const numbers = [45, 99]
+const [first, secoend] = numbers;
+const [x, y] = [12, 66];
+
+
