@@ -11,9 +11,19 @@ const sum = add(5, 7);
 
 //defult ---> if value is not provided take this as a defult.
 
-function add(num1 = 99, num2 = 0, num3 = 12){
-    const result = num1 + num2 + num3;
-    console.log(num1, num2, result);
-    return result;
+// function add(num1 = 99, num2 = 0, num3 = 12){
+//     const result = num1 + num2 + num3;
+//     console.log(num1, num2, result);
+//     return result;
+// }
+// const sum = add(5);
+
+
+
+//defult parameter ar jonno 
+function add(num1=0, num2= 0){
+    let result = 0;
+    result = num1 + num2;
+    console.log(result);
 }
-const sum = add(5);
+add(10)
